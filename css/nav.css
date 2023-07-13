@@ -24,6 +24,31 @@
     display: none;
 }
 
+.bottomnav {
+    margin: auto;
+    background-color: rgb(95,95,95);
+    overflow: auto;
+}
+
+.bottomnav a {
+    float: left;
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 12px 12px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+
+.bottomnav a.hover, .active {
+    background-color: darkcyan;
+}
+
+.bottomnav .icon {
+    display: none;
+}
+
 /* Responsive rules - apply when screen width is less than 1200px */
 
 @media screen and (max-width: 1199px) {
